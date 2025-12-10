@@ -1,16 +1,28 @@
-# palifinder
+# Suitmedia Mobile Developer Intern - Flutter Test App
 
-Test Mobile Developer Intern 2025 Suitmedia x Maganghub
+This repository contains a Flutter mobile application built as part of the **Mobile Developer Intern test at Suitmedia**. The app consists of 3 screens and demonstrates basic Flutter concepts including state management using `Provider`, API integration, and responsive UI.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+1. **First Screen**
+   - Two input fields: `Name` and `Palindrome`.
+   - "Check" button to validate if the entered sentence is a palindrome.
+   - "Next" button to navigate to the Second Screen.
 
-A few resources to get you started if this is your first Flutter project:
+2. **Second Screen**
+   - Displays a static `Welcome` label.
+   - Shows the user's name entered on the First Screen.
+   - Displays `Selected User Name` (updates when a user is selected on the Third Screen).
+   - "Choose a User" button to navigate to the Third Screen.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Third Screen**
+   - List of users fetched from [reqres.in](https://reqres.in/).
+   - Displays `email`, `first_name`, `last_name`, and `avatar`.
+   - Pull-to-refresh and infinite scroll for loading next pages.
+   - Selecting a user updates the `Selected User Name` on the Second Screen.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/suitmedia-intern-flutter.git
