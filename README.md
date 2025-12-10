@@ -25,4 +25,4 @@ This repository contains a Flutter mobile application built as part of the **Mob
 
 1. Clone the repository:
    ```bash
-   git clone [[https://github.com/your-username/suitmedia-intern-flutter.git]
+   git clone [https://github.com/your-username/suitmedia-intern-flutter.git]
